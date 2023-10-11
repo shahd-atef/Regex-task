@@ -1,0 +1,58 @@
+*
+{
+    padding:0;
+    margin:0;
+    border: none;
+}
+body{
+    width:80%;
+
+}
+.userinfo{
+    width:100%;
+    min-height: 600px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+h1{
+    font-size:30px;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.logout-click
+{
+     margin:20px auto;
+     background-color: rgba(235, 67, 53, 1);
+     color:white;
+     padding:10px 50px;
+     border-radius:20px;
+     -webkit-border-radius:20px;
+     -moz-border-radius:20px;
+     -ms-border-radius:20px;
+     -o-border-radius:20px;
+}
+@media (min-width: 450px) and (max-width: 600px){
+body {
+    width:100%;
+}
+    .userinfo{
+        box-sizing: border-box;
+        width:100%;
+        padding:10px
+        }
+     
+ }
+@media (min-width: 250px) and (max-width: 449px){
+
+
+    .userinfo{
+        width:100%;
+        padding:10px
+        }
+        h1{
+            font-size:15px;
+        }
+ }
